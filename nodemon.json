@@ -1,0 +1,7 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "execMap": {
+    "ts": "ts-node-dev --respawn --ignore-watch node_modules --no-notify src/server.ts"
+  }
+}
